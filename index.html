@@ -1,1 +1,217 @@
-建设中...
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>COSCON 2016 | 2016中国开源年会</title>
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			new WOW().init();
+		</script>
+		
+		<!-- Custom Theme files -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript">
+			addEventListener("load", function() {setTimeout(hideURLbar, 0);});
+			function hideURLbar() {
+				window.scrollTo(0,1);
+			}
+		</script>
+	</head>
+	<body>
+		<div class="slider">
+			<div class="slider-caption">
+				<h1>2016中国<span>开源</span>年会</h1>
+				<h3>China <span>Open Source</span> Conference 2016</h3>
+			</div>
+		</div>
+		<!-- header -->
+		<div class="header">
+			<div class="sticky-navigation">
+				<div class="fixed-header">
+					<div class="container">
+						<div class="top-menu">
+							<span class="menu"> </span>
+							<ul>
+								<li><a href="#">首页</a></li>
+								<li><a href="#">明星讲师</a></li>
+								<li><a href="#">会议日程</a></li>
+								<li><a href="#">赞助商</a></li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							$("span.menu").click(function(){
+								$(".top-menu ul").slideToggle(500, function(){})
+							})
+						</script>
+						<div class="register">
+							<input type="submit" value="立刻报名" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header -->
+		<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header").addClass("fixed");
+				}else{
+					$(".header").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!----- top-grids ----->
+		<div class="top-grids"> 
+			<div class="container">
+				<div class="col-md-6 top-grid  wow bounceIn" data-wow-delay="0.4s">
+					<span class="top-icon"> </span>
+					<h4><a href="#">大数据</a></h4>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="col-md-6 top-grid  wow bounceIn" data-wow-delay="0.4s">
+					<span class="top-icon top-icon1"> </span>
+					<h4><a href="#">云计算</a></h4>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="col-md-6 top-grid  wow bounceIn" data-wow-delay="0.4s">
+					<span class="top-icon top-icon2"> </span>
+					<h4><a href="#">操作系统</a></h4>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="col-md-6 top-grid  wow bounceIn" data-wow-delay="0.4s">
+					<span class="top-icon"> </span>
+					<h4><a href="#">开源治理</a></h4>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!----- top-grids ----->
+		<!----- our-news ------>
+		<div class="our-news">
+			<div class="container">
+				<div class="head-section text-center">
+					<h3>明星讲师</h3>
+					<p>There are many variations of passages of Lorem Ipsum available,</p>
+				</div>
+				<!----- news-grids ----->
+				<div class="news-grids">
+					<div class="col-md-3 news-grid  wow fadeInLeft" data-wow-delay="0.4s">
+						<img class="img-responsive name-in" src="images/img1.jpg" title="name" />
+						<h4>LOREM IPSUM DOLO</h4>
+						<p>here are many variations of passages of Lorem Ipsum available,</p>
+						<a class="news-btn" href="#">More info</a>
+					</div>
+					<div class="col-md-3 news-grid  wow fadeInLeft" data-wow-delay="0.4s">
+						<img class="img-responsive name-in" src="images/img2.jpg" title="name" />
+						<h4>LOREM IPSUM DOLO</h4>
+						<p>here are many variations of passages of Lorem Ipsum available,</p>
+						<a class="news-btn" href="#">More info</a>
+					</div>
+					<div class="col-md-3 news-grid  wow fadeInRight" data-wow-delay="0.4s">
+						<img class="img-responsive name-in" src="images/img3.jpg" title="name" />
+						<h4>LOREM IPSUM DOLO</h4>
+						<p>here are many variations of passages of Lorem Ipsum available,</p>
+						<a class="news-btn" href="#">More info</a>
+					</div>
+					<div class="col-md-3 news-grid  wow fadeInRight" data-wow-delay="0.4s">
+						<img class="img-responsive name-in" src="images/img4.jpg" title="name" />
+						<h4>LOREM IPSUM DOLO</h4>
+						<p>here are many variations of passages of Lorem Ipsum available,</p>
+						<a class="news-btn" href="#">More info</a>
+					</div>
+				</div>
+				<!----- news-grids ----->
+			</div>
+		</div>
+		<!----- our-news ------>
+		<!----//fea-testmonials---->
+		<div class="testmonials wow fadeInLeft" data-wow-delay="0.4s">
+			<div class="container">
+				<div class="head-section text-center  wow bounceIn" data-wow-delay="0.4s">
+					<h3>会议日程</h3>
+					<p>There are many variations of passages of Lorem Ipsum available,</p>
+				</div>
+				<div class="testmonial-grids">
+					<div class="testmonial-grid">
+						<p><span>"</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum iaculis diam quis sodales. Vestibulum eu dui tellus. In viverra porttitor auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas<span> "</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!----- testmonials ----->
+		<!---- bottom-grids ---->
+		<div class="bottom-grids">
+			<div class="container">
+				<div class="col-md-9 bottom-grids-left  wow fadeInLeft" data-wow-delay="0.4s">
+					<h2>There are many variations of passages.</h2>
+					<div class="col-md-4 bottom-grids-left-left">
+						<img class="img-responsive name-in" src="images/video.jpg" title="name" />
+					</div>
+					<div class="col-md-8 bottom-grids-left-right">
+						<h3>参会注意事项</h3>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+						<p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,  to generate Lorem Ipsum which looks reasonable.</p>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+					</div>
+				</div>
+				<div class="col-md-3 bottom-grids-right wow fadeInRight" data-wow-delay="0.4s">
+					<h2>Our capabilities</h2>
+					<ul>
+						<li><a href="#"><span> </span>There are many variations</a></li>
+						<li><a href="#"><span> </span>suffered alteration</a></li>
+						<li><a href="#"><span> </span>variations of passages</a></li>
+						<li><a href="#"><span> </span>Lorem Ipsum available</a></li>
+						<li><a href="#"><span> </span>passages of Lorem Ipsum</a></li>
+						<li><a href="#"><span> </span>many variations of passage</a></li>
+						<li><a href="#"><span> </span>suffered alteration</a></li>
+						<li><a href="#"><span> </span>variations of passages</a></li>
+						<li><a href="#"><span> </span>Lorem Ipsum available</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---- bottom-grids ---->
+		<!-----soical-share ----->
+		<div class="social-share text-center">
+			<div class="container">
+				<h3>赞助商</h3>
+				<ul>
+					<li><a class="facebook" href="#"><span> </span></a></li>
+					<li><a class="twitter" href="#"><span> </span></a></li>
+					<li><a class="dribble" href="#"><span> </span></a></li>
+					<div class="clearfix"> </div>
+				</ul>
+			</div>
+		</div>
+		<!-----soical-share ----->
+		<!----- footer ---->
+		<div class="footer">
+			<div class="container">
+				<div class="footer-left wow fadeInLeft" data-wow-delay="0.4s">
+					 	<ul>
+			            	<li><a href="index.html">Home</a></li>
+			                <li><a href="about.html">About Us</a></li>
+			                <li><a href="services.html">Services</a></li>
+			                <li><a href="contact.html">Contact Us</a></li>
+			            </ul>
+				</div>
+			
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!----- footer ---->
+	</body>
+</html>
