@@ -1126,3 +1126,10 @@ a.news-btn:hover{
 		font-size: 1.2em;
 	}
 }
+a.ty_button {
+	background-color: #008E10;
+	color: #FFFFFF;
+	position: absolute;
+	right: 0;
+	padding: 0.5em;
+}
