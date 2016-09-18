@@ -1,227 +1,128 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>COSCON 2016 | 2016中国开源年会</title>
-		
-		<link rel="stylesheet" href="css/bootstrap.css" />
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			new WOW().init();
-		</script>
-		
-		<!-- Custom Theme files -->
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<script type="text/javascript">
-			addEventListener("load", function() {setTimeout(hideURLbar, 0);});
-			function hideURLbar() {
-				window.scrollTo(0,1);
-			}
-		</script>
+		<meta name="description" content="2016中国开源年会是由开源社主办的开源年度盛会，跨社区、跨技术领域、跨国度，与开源大牛直接互动">
+		<title>COSCon 2016 | 2016中国开源年会</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 	</head>
+
 	<body>
-		<div class="slider">
-			<div class="slider-caption">
-				<h1>2016中国<span>开源</span>年会</h1>
-				<h3>COSCon 2016 @Beijing 10.15 ~ 10.16</h3>
-			</div>
-		</div>
-		<!-- header -->
-		<div class="header">
-			<div class="sticky-navigation">
-				<div class="fixed-header">
-					<div class="container">
-						<div class="top-menu">
-							<span class="menu"> </span>
-							<ul>
-								<li><a href="#">首页</a></li>
-								<li><a href="#">明星讲师</a></li>
-								<li><a href="#">会议日程</a></li>
-								<li><a href="#">赞助商</a></li>
-							</ul>
-						</div>
-						<script type="text/javascript">
-							$("span.menu").click(function(){
-								$(".top-menu ul").slideToggle(500, function(){})
-							})
-						</script>
-						<div class="register">
-							<a class="ty_button" href="https://www.wenjuan.com/s/ayENze/">
-								讲师征集
-							</a>
-						</div>
-					</div>
+		<!-- nav -->
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+					<a class="navbar-brand" href="#">COSCon 2016</a>
 				</div>
-			</div>
-		</div>
-		<!-- header -->
-		<!-- script-for sticky-nav -->
-		<script>
-		$(document).ready(function() {
-			 var navoffeset=$(".header").offset().top;
-			 $(window).scroll(function(){
-				var scrollpos=$(window).scrollTop(); 
-				if(scrollpos >=navoffeset){
-					$(".header").addClass("fixed");
-				}else{
-					$(".header").removeClass("fixed");
-				}
-			 });
-			 
-		});
-		</script>
-		<!----- top-grids ----->
-		<div class="top-grids"> 
-			<div class="container">
-				<div class="col-md-12 top-grid  wow bounceIn" data-wow-delay="0.4s">
-					<span class="top-icon"> </span>
-					<h4><a href="#">我们是谁</a></h4>
-					<p>开源社，是由中国支持开源的企业、社区以及个人所组织的一个开源联盟，一直以来都致力于在中国推广开源，推动中国开源社区成为全球开源软件和硬件的积极及贡献者。并携手国内社区，高校，企业，政府，共创健康可持续发展的开源生态体系。</p>
-				</div>
-				<div class="col-md-12 top-grid  wow bounceIn" data-wow-delay="0.4s">
-					<span class="top-icon top-icon1"> </span>
-					<h4><a href="#">我们打算办一个怎样的大会</a></h4>
-					<p>
-						秉持着这样的愿景和使命，我们打算在今年的10月15~16日，在北京举办2016中国开源年会（China Open Source Conference 2016），通过这次大会，我们希望能够实现：<br>
-						· 开源社区、企业及高手齐聚一堂、激荡火花<br>
-						· 跨社区、跨技术领域、跨国度的年度盛会<br />
-						· 与真正的开源贡献者、参与者，直接互动<br />
-						最终达成我们“天下开源是一家、社区携手迸火花”的理想！
-					</p>
-				</div>
-				<div class="col-md-12 top-grid  wow bounceIn" data-wow-delay="0.4s">
-					<span class="top-icon top-icon2"> </span>
-					<h4><a href="#">会议的形式</a></h4>
-					<p>
-						为了实现上述目标，我们策划了丰富的会议形式： <br />
-						主题演讲：社区大牛为您带来精彩的开源模式相关的深度内容<br />
-高峰对话：中外开源社区的领军人物，共同探讨开源的发展与社区的未来<br />
-五大分会场演讲：包括开源操作系统、云计算、大数据、前沿技术、开源治理等诸多领域，精彩纷呈，一定会有你感兴趣的话题。<br />
-开源之夜：欢聚一堂、敞开心扉、畅所欲言的社区见面会。<br />
-4大研讨会：开源操作系统、云计算、大数据及前沿技术的相关深度研讨。<br />
-					</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<!----- top-grids ----->
-		<!----- our-news ------>
-		<div class="our-news">
-			<div class="container">
-				<div class="head-section text-center">
-					<h3>明星讲师</h3>
-					<p> </p>
-				</div>
-				<!----- news-grids ----->
-				<div class="news-grids">
-					<div class="col-md-3 news-grid  wow fadeInLeft" data-wow-delay="0.4s">
-						<img class="img-responsive name-in" src="img/img1.jpeg" title="name" />
-						<h4>廖湘科</h4>
-						<p>计算机系统软件专家。湖南省涟源市人。1985年本科毕业于清华大学计算机系，1988年硕士毕业于国防科技大学计算机学院。现任国防科技大学计算机学院院长，研究员。</p>
-						<a class="news-btn" href="#">More info</a>
-					</div>
-					<div class="col-md-3 news-grid  wow fadeInLeft" data-wow-delay="0.4s">
-						<img class="img-responsive name-in" src="img/img2.jpeg" title="name" />
-						<h4>Wim Coekaerts</h4>
-						<p>CVP Enterprise Open Source at Microsoft Open Source Community, projects and partnerships.</p>
-						<a class="news-btn" href="#">More info</a>
-					</div>
-					<div class="col-md-3 news-grid  wow fadeInRight" data-wow-delay="0.4s">
-						<img class="img-responsive name-in" src="img/img3.jpeg" title="name" />
-						<h4>Kylie Liang</h4>
-						<p>FreeBSD基金会执行总监，出生于中国四川，目前居住在上海。2005年，硕士毕业于中科院计算技术研究所。2005~2014年在英特尔从事*NIX 驱动开发。2014年加入微软，并带领微软的一个FreeBSD项目团队。</p>
-						<a class="news-btn" href="#">More info</a>
-					</div>
-					<div class="col-md-3 news-grid  wow fadeInRight" data-wow-delay="0.4s">
-						<img class="img-responsive name-in" src="img/img4.jpeg" title="name" />
-						<h4>Federico Mena Quintero</h4>
-						<p>墨西哥软件设计师，为GNOME项目的共同发起人。就读墨西哥国立自治大学时，于1997年与Miguel de Icaza共同发起了GNOME项目。大学毕业后，他进入美国Red Hat公司工作。在Red Hat公司期间，他创作了GNOME Canvas，同时也是GIMP的维护者。</p>
-						<a class="news-btn" href="#">More info</a>
-					</div>
-				</div>
-				<!----- news-grids ----->
-			</div>
-		</div>
-		<!----- our-news ------>
-		<!----//fea-testmonials---->
-		<div class="testmonials wow fadeInLeft" data-wow-delay="0.4s">
-			<div class="container">
-				<div class="head-section text-center  wow bounceIn" data-wow-delay="0.4s">
-					<h3>会议日程</h3>
-					<p>There are many variations of passages of Lorem Ipsum available,</p>
-				</div>
-				<div class="testmonial-grids">
-					<div class="testmonial-grid">
-						<p><span>"</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum iaculis diam quis sodales. Vestibulum eu dui tellus. In viverra porttitor auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas<span> "</span></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!----- testmonials ----->
-		<!---- bottom-grids ---->
-		<div class="bottom-grids">
-			<div class="container">
-				<div class="col-md-9 bottom-grids-left  wow fadeInLeft" data-wow-delay="0.4s">
-					<h2>There are many variations of passages.</h2>
-					<div class="col-md-4 bottom-grids-left-left">
-						<img class="img-responsive name-in" src="images/video.jpg" title="name" />
-					</div>
-					<div class="col-md-8 bottom-grids-left-right">
-						<h3>参会注意事项</h3>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-						<p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,  to generate Lorem Ipsum which looks reasonable.</p>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-					</div>
-				</div>
-				<div class="col-md-3 bottom-grids-right wow fadeInRight" data-wow-delay="0.4s">
-					<h2>Our capabilities</h2>
-					<ul>
-						<li><a href="#"><span> </span>There are many variations</a></li>
-						<li><a href="#"><span> </span>suffered alteration</a></li>
-						<li><a href="#"><span> </span>variations of passages</a></li>
-						<li><a href="#"><span> </span>Lorem Ipsum available</a></li>
-						<li><a href="#"><span> </span>passages of Lorem Ipsum</a></li>
-						<li><a href="#"><span> </span>many variations of passage</a></li>
-						<li><a href="#"><span> </span>suffered alteration</a></li>
-						<li><a href="#"><span> </span>variations of passages</a></li>
-						<li><a href="#"><span> </span>Lorem Ipsum available</a></li>
+				<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#speakers">明星讲师</a>
+						</li>
+						<li>
+							<a href="#schedule">会议日程</a>
+						</li>
+						<li>
+							<a href="#venue">位置交通</a>
+						</li>
+						<li>
+							<a href="#sponsors">赞助商</a>
+						</li>
 					</ul>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
 		</div>
-		<!---- bottom-grids ---->
-		<!-----soical-share ----->
-		<div class="social-share text-center">
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
 			<div class="container">
-				<h3>赞助商</h3>
-				<ul>
-					<li><a class="facebook" href="#"><span> </span></a></li>
-					<li><a class="twitter" href="#"><span> </span></a></li>
-					<li><a class="dribble" href="#"><span> </span></a></li>
-					<div class="clearfix"> </div>
-				</ul>
-			</div>
-		</div>
-		<!-----soical-share ----->
-		<!----- footer ---->
-		<div class="footer">
-			<div class="container">
-				<div class="footer-left wow fadeInLeft" data-wow-delay="0.4s">
-					 	<ul>
-			            	<li><a href="index.html">Home</a></li>
-			                <li><a href="about.html">About Us</a></li>
-			                <li><a href="services.html">Services</a></li>
-			                <li><a href="contact.html">Contact Us</a></li>
-			            </ul>
+				<div id="caption">
+					<h1>2016中国开源年会</h1>
+					<p>@北京航空航天大学 10.15~10.16</p>
 				</div>
-			
-				<div class="clearfix"> </div>
+				<div class="btn ty-btn">现在报名</div>
 			</div>
 		</div>
-		<!----- footer ---->
+
+		<!-- intro -->
+		<div class="container ty-intro">
+			<div class="col-md-12 top-grid">
+				<h4><a href="#">我们是谁</a></h4>
+				<p>开源社，是由中国支持开源的企业、社区以及个人所组织的一个开源联盟，一直以来都致力于在中国推广开源，推动中国开源社区成为全球开源软件和硬件的积极及贡献者。并携手国内社区，高校，企业，政府，共创健康可持续发展的开源生态体系。</p>
+			</div>
+			<div class="col-md-12 top-grid">
+				<h4><a href="#">我们打算办一个怎样的大会</a></h4>
+				<p>
+					秉持着这样的愿景和使命，我们打算在今年的10月15~16日，在北京举办2016中国开源年会（China Open Source Conference 2016），通过这次大会，我们希望能够实现：
+					<ul>
+						<li>开源社区、企业及高手齐聚一堂、激荡火花</li>
+						<li>跨社区、跨技术领域、跨国度的年度盛会</li>
+						<li>与真正的开源贡献者、参与者，直接互动</li>
+						<li>最终达成我们“天下开源是一家、社区携手迸火花”的理想！</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-md-12 top-grid">
+				<h4><a href="#">会议的形式</a></h4>
+				<p>
+					为了实现上述目标，我们策划了丰富的会议形式：
+					<ul>
+						<li>主题演讲：社区大牛为您带来精彩的开源模式相关的深度内容</li>
+						<li>高峰对话：中外开源社区的领军人物，共同探讨开源的发展与社区的未来</li>
+						<li>五大分会场演讲：包括开源操作系统、云计算、大数据、前沿技术、开源治理等诸多领域，精彩纷呈，一定会有你感兴趣的话题。</li>
+						<li>开源之夜：欢聚一堂、敞开心扉、畅所欲言的社区见面会。</li>
+						<li>4大研讨会：开源操作系统、云计算、大数据及前沿技术的相关深度研讨。</li>
+					</ul>
+				</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
+		<!-- speakers -->
+		<div class="ty-speakers" id="speakers">
+			<div class="container">
+			<div class="ty-header">
+				明星讲师
+			</div>
+			<div class="ty-grids">
+				<div class="col-md-3 ty-grid">
+					<img class="img-responsive name-in" src="img/liao150.png" title="name" />
+					<h4>廖湘科</h4>
+					<p>中国工程院院士，计算机系统软件专家。1985年本科毕业于清华大学计算机系，1988年硕士毕业于国防科技大学计算机学院。现任国防科技大学计算机学院院长，研究员。</p>
+				</div>
+				<div class="col-md-3 ty-grid">
+					<img class="img-responsive name-in" src="img/niclas135.png" title="name" />
+					<h4>Niclas Hedhman</h4>
+					<p>Apache基金会VP，32年的软件工程经验，从开发192字节的微控制器到100GB的企业级服务器，从设计电路板到架构数据中心，从汇编、Forth、EXOL、C、Java到Erlang，跨越众多行业。脚步未曾停止。</p>
+				</div>
+				<div class="col-md-3 ty-grid">
+					<img class="img-responsive name-in" src="img/kylie300.png" title="name" />
+					<h4>Kylie Liang</h4>
+					<p>FreeBSD基金会执行总监。2005年硕士毕业于中科院计算技术研究所。2005~2014年在英特尔从事*NIX 驱动开发。2014年加入微软，并带领微软的一个FreeBSD项目团队。</p>
+				</div>
+				<div class="col-md-3 ty-grid">
+					<img class="img-responsive name-in" src="img/federico300.png" title="name" />
+					<h4>Federico Mena Quintero</h4>
+					<p>墨西哥软件设计师。于1997年与Miguel de Icaza共同发起了GNOME项目。大学毕业后，他进入美国Red Hat公司工作。在Red Hat公司期间，他创作了GNOME Canvas，同时也是GIMP的维护者。</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

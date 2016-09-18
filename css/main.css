@@ -1,0 +1,64 @@
+
+body {
+	color: #777777;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.jumbotron {
+	padding-top: 50px;
+	background: url(../img/pattern.svg);
+	color: white;
+}
+
+#caption {
+	text-shadow: 1px 1px 5px #000000;
+}
+
+.ty-btn {
+	border: 1px solid white;
+}
+
+.ty-btn:hover {
+	color: white;
+}
+
+.ty-grids {
+	text-align: center;
+}
+
+.top-grid {
+	margin-bottom: 3em;
+}
+
+.ty-header {
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: 1.7em;
+	color: #000000;
+	font-weight: 700;
+}
+
+.ty-speakers {
+	background-color: #F7F7F7;
+	padding: 3em 0 5em;
+}
+
+.name-in {
+	margin: 0 auto;
+	border-radius: 30px;
+	width: 135px;
+	height: 135px;
+}
+
+@media(max-width:768px){
+	.ty-speakers {
+		padding: 1.5em 0 2em;
+	}
+}
+
+@media(max-width:480px){
+	
+}
