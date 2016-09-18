@@ -41,22 +41,20 @@ a:hover {
 	font-weight: 700;
 }
 
-.ty-speakers {
-	background-color: #F7F7F7;
-	padding: 3em 0 5em;
-}
-
-.ty-schedule {
-	padding: 3em 0 5em;
-}
-
+.ty-speakers,
 .ty-venue {
 	background-color: #F7F7F7;
 	padding: 3em 0 5em;
 }
 
+.ty-schedule,
+.ty-sponsors {
+	padding: 3em 0 5em;
+}
+
+
 .ty-ditu {
-	height: 500px;
+	height: 300px;
 }
 
 .name-in {
@@ -66,9 +64,24 @@ a:hover {
 	height: 135px;
 }
 
+.ty-logos {
+	
+}
 
-    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
-    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+.ty-sponsor {
+	padding-top: 2em;
+	float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ty-sponsor img {
+	max-width: 100%;
+}
+
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
 
 @media(max-width:768px){
 	.ty-speakers,
