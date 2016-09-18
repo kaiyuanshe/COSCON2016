@@ -46,6 +46,19 @@ a:hover {
 	padding: 3em 0 5em;
 }
 
+.ty-schedule {
+	padding: 3em 0 5em;
+}
+
+.ty-venue {
+	background-color: #F7F7F7;
+	padding: 3em 0 5em;
+}
+
+.ty-ditu {
+	height: 500px;
+}
+
 .name-in {
 	margin: 0 auto;
 	border-radius: 30px;
@@ -53,9 +66,19 @@ a:hover {
 	height: 135px;
 }
 
+
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
 @media(max-width:768px){
-	.ty-speakers {
+	.ty-speakers,
+	.ty-schedule,
+	.ty-venue {
 		padding: 1.5em 0 2em;
+	}
+	
+	.ty-ditu {
+		height: 250px;
 	}
 }
 
