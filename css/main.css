@@ -8,8 +8,9 @@ a:hover {
 }
 
 .jumbotron {
-	padding-top: 50px;
-	background: url(../img/pattern.svg);
+	margin-top: 50px;
+	background: url(../img/coscon-bg.jpg);
+	background-size: 100%;
 	color: white;
 }
 
@@ -18,6 +19,7 @@ a:hover {
 }
 
 .ty-btn {
+	color: white;
 	border: 1px solid white;
 }
 
